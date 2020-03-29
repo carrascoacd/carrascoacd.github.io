@@ -1,13 +1,9 @@
-bricolaje:
-  name: bricolaje
-  description: ¡Vamos a construir!
+electronica:
+  name: Electrónica
+  description: Proyectos aplicados al mundo vegetal
   cover: False
-permacultura:
-  name: permacultura
-  description: Plantas y principios
-  cover: False
-automatizacion:
-  name: automatizacion
-  description: ¡Automaticemos cosas!
+plantas:
+  name: Plantas
+  description: Cuidados y aplicaciones
   cover: False
   

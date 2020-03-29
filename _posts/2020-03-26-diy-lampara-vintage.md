@@ -5,10 +5,10 @@ cover: assets/images/2020-03-26-diy-lampara-vintage/cover.jpg
 navigation: True
 title: DIY. Lámpara vintage
 date: 2020-03-26 10:00:00
-tags: [Bricolaje]
+tags: [electronica]
 class: post-template
-subclass: 'post tag-bricolaje'
-author: eltallerdetonin
+subclass: 'post tag-electronica'
+author: electronicayplantas
 ---
 
 Hacer una lámpara de madera de estilo rústico y vintage nunca ha sido tan fácil.

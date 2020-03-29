@@ -1,8 +1,8 @@
-eltallerdetonin:
-  username: eltallerdetonin
-  name: El taller de tonin
-  url_full: http://jekyller.github.io/jasper2/
-  url: jekyller.github.io/jasper2
-  bio: Bricolaje, permaculatura y automatización
+electronicayplantas:
+  username: electronicayplantas
+  name: Electrónica y PLantas
+  # url_full: http://jekyller.github.io/jasper2/
+  # url: jekyller.github.io/jasper2
+  bio: Aplica la electrónica al mundo de las plantas para gente inexperta
   picture: assets/images/ghost.png
   cover: False
