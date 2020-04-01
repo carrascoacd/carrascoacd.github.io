@@ -1,6 +1,6 @@
-electronica:
-  name: Electrónica
-  description: Proyectos aplicados al mundo vegetal
+tecnologia:
+  name: Tecnología
+  description: Proyectos de tecnlogía en el mundo vegetal
   cover: False
 plantas:
   name: Plantas

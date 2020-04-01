@@ -1,8 +1,8 @@
-electronicayplantas:
-  username: electronicayplantas
-  name: Electrónica y PLantas
+eltallerdelhuerto:
+  username: eltallerdelhuerto
+  name: El taller del huerto
   # url_full: http://jekyller.github.io/jasper2/
   # url: jekyller.github.io/jasper2
-  bio: Aplica la electrónica al mundo de las plantas para gente inexperta
-  picture: assets/images/ghost.png
+  bio: Mejora el cuidado de las plantas y aplica la tecnología con ellas para gente inexperta
+  picture: assets/images/icon-green.png
   cover: False

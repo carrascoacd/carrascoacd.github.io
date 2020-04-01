@@ -55,7 +55,7 @@ into the {body} of the default.hbs template -->
             <!-- Email subscribe form at the bottom of the page -->
             {% if site.subscribers %}
                 <section class="subscribe-form">
-                    <h3 class="subscribe-form-title">Subscribe to {{ site.title }}</h3>
+                    <h3 class="subscribe-form-title">Subscribe to {{ site.name }}</h3>
                     <p>Get the latest posts delivered right to your inbox</p>
                     {% include subscribe-form.html placeholder="youremail@example.com" %}
                 </section>
@@ -96,7 +96,7 @@ into the {body} of the default.hbs template -->
                     <script>
                         var disqus_config = function () {
                             this.page.url = '{{ site.url }}{{ site.baseurl }}';
-                            this.page.identifier = '{{ site.title }}';
+                            this.page.identifier = '{{ site.name }}';
                         };
                         (function() {
                             var d = document, s = d.createElement('script');
@@ -137,7 +137,7 @@ into the {body} of the default.hbs template -->
                         {% endif %}
                     >
                         <header class="read-next-card-header">
-                            <small class="read-next-card-header-sitetitle">&mdash; {{ site.title }} &mdash;</small>
+                            <small class="read-next-card-header-sitetitle">&mdash; {{ site.name }} &mdash;</small>
                             {% if primary %}
                                 <h3 class="read-next-card-header-title"><a href="{{ site.baseurl }}tag/{{ primary | downcase | replace: ' ', '-' }}/">{{ primary | capitalize }}</a></h3>
                             {% endif %}

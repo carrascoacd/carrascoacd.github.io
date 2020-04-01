@@ -3,15 +3,16 @@ layout: post
 current: post
 cover: assets/images/2020-03-26-diy-lampara-vintage/cover.jpg
 navigation: True
-title: DIY. Lámpara vintage
+title: Construir una lámpara vintage usando restos de poda
 date: 2020-03-26 10:00:00
-tags: [electronica]
+tags: [tecnologia]
 class: post-template
 subclass: 'post tag-electronica'
-author: electronicayplantas
+author: eltallerdelhuerto
 ---
 
-Hacer una lámpara de madera de estilo rústico y vintage nunca ha sido tan fácil.
+Vamos a ver cómo usar la poda de rejuvenecimiento para hacer un trabajo de bricolaje.
+
 
 El diseño vintage hace referencia a elementos antiguos que cobran un significado especial a día de hoy. 
 
@@ -19,7 +20,7 @@ En este caso, las bombillas que usaremos tienen ese característico diseño, ya 
 
 ## Materiales:
 - Un palo de madera
-- Dos portalámparas
+- Dos portalámparas
 - Dos bombillas estilo vintage
 - Cable trenzado y recubierto de cuerda
 - Hilo negro
