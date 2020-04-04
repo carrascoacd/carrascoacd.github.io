@@ -10,13 +10,14 @@ baseurl: /
 
 # Website info
 name: El taller del huerto
-title: ¿Te gustan las plantas?
-description: Mejora sus cuidados y aprende tecnología con ellas para gente inexperta
+title: ¿Arduino y plantas?
+description: Aprende de forma práctica tecnología con ellas para gente inexperta
 cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
+logo_dark: assets/images/blog-icon.png
+favicon: assets/images/favicon
 production_url: https://eltallerdelhuerto.com
+url: https://eltallerdelhuerto.com
 source_url: https://github.com/jekyller/jasper2/
 CNAME: eltallerdelhuerto.com
 
@@ -30,11 +31,11 @@ subscribers: False # you need to connect an external service for this to work,
 pinterest: eltallerdelhuerto
 
 # Disqus
-disqus: False
-disqus_shortname: jekyller # replace with your disqus username
+disqus: True
+disqus_shortname: eltallerdelhuerto # replace with your disqus username
 
 # Google Analytics
-google_analytics: UA-69281367-1 # replace with your GA tracking identifier
+google_analytics: G-M1QWDCLYE3
 
 # Permalinks
 permalink: /:title
