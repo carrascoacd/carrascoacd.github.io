@@ -9,7 +9,7 @@ tags: [tecnologia]
 class: post-template
 subclass: 'post tag-electronica'
 author: eltallerdelhuerto
-published: false
+published: true
 ---
 
 Vamos a ver cómo usar la poda de rejuvenecimiento de un Almendro para hacer un trabajo de bricolaje.

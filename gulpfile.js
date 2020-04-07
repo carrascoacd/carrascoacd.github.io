@@ -35,7 +35,7 @@ gulp.task('css', function () {
         customProperties,
         colorFunction(),
         autoprefixer({browsers: ['last 2 versions']}),
-        cssnano()
+        cssnano({zindex: false})
     ];
 
     return gulp.src('assets/css/*.css')

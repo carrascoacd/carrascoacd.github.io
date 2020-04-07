@@ -12,7 +12,7 @@ author: eltallerdelhuerto
 comments: true
 ---
 
-Lo que me hubiera gustado saber antes hacer la poda de rejuvenecimiento de un Almendro.
+Lo que me hubiera gustado saber antes de hacer la poda de rejuvenecimiento de un Almendro.
 
 ## Por qué le podé tan severamente
 

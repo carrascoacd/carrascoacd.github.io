@@ -94,16 +94,18 @@ into the {body} of the default.hbs template -->
                 <section class="post-full-comments">
                     <div id="disqus_thread"></div>
                     <script>
-                        var disqus_config = function () {
+                        if(readCookie('cookie-notice-dismissed')=='true') {
+                            var disqus_config = function () {
                             this.page.url = '{{ site.url }}{{ site.baseurl }}';
                             this.page.identifier = '{{ site.name }}';
-                        };
-                        (function() {
-                            var d = document, s = d.createElement('script');
-                            s.src = 'https://{{ site.disqus_shortname }}.disqus.com/embed.js';
-                            s.setAttribute('data-timestamp', +new Date());
-                            (d.head || d.body).appendChild(s);
-                        })();
+                            };
+                            (function() {
+                                var d = document, s = d.createElement('script');
+                                s.src = 'https://{{ site.disqus_shortname }}.disqus.com/embed.js';
+                                s.setAttribute('data-timestamp', +new Date());
+                                (d.head || d.body).appendChild(s);
+                            })();
+                        }
                     </script>
                 </section>
             {% endif %}
