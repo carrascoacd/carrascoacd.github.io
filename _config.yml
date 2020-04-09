@@ -3,14 +3,14 @@ markdown: kramdown
 highlighter: rouge
 paginate: 100 # it will paginate after this number
 language: 'es'
-words_per_minute: 150
+words_per_minute: 180
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: /
 
 # Website info
 name: El taller del huerto
-title: ¿Plantas y tecnología?
+title: ¿Plantas y automatización?
 description: Aprende de forma práctica naturaleza y tecnología con las plantas para gente curiosa
 cover: assets/images/blog-cover.jpg
 logo: assets/images/icon-rounded.png

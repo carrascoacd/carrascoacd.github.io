@@ -7,7 +7,7 @@ title: Construir una lámpara vintage usando restos de poda
 date: 2020-03-26 10:00:00
 tags: [tecnologia]
 class: post-template
-subclass: 'post tag-electronica'
+subclass: 'post tag-tecnologia'
 author: eltallerdelhuerto
 published: true
 ---
