@@ -16,7 +16,7 @@ Vamos a ver cómo usar la poda de rejuvenecimiento de un Almendro para hacer un 
 
 El diseño vintage hace referencia a elementos antiguos que cobran un significado especial a día de hoy. 
 
-En este caso, las bombillas que usaremos tienen ese característico diseño, ya que recuerdan a esas antiguas bombillas de filamentos que tanto se calentaban y que iluminan la habitación con una luz cálida y diferente.
+En este caso, las bombillas que usaremos tienen ese característico diseño, ya que recuerdan a esas antiguas bombillas de filamentos que tanto se calentaban y que iluminaban la habitación con una luz cálida y diferente.
 
 ## Materiales:
 - Un palo de madera
@@ -39,4 +39,6 @@ Este proyecto es muy bonito ya que te pone en contacto con la naturaleza. **Pued
 ## Cómo conseguí el palo
 El palo es de mi Almendro, de la [poda de rejuvenecimiento de hace tres años](poda-rejuvenecimiento-almendro).
 
-Aunque no tiene mucha dificultad, hay cosas que no tuve en cuenta en el diseño inicial, como que el agujero del portalámparas era un tanto pequeño o que no en todos los cables iba a circular corriente. Dejando uno de ellos a modo decorativo. 
+Aunque no tiene mucha dificultad, hay cosas que no tuve en cuenta en el diseño inicial, como que el agujero del portalámparas era un tanto pequeño o que no en todos los cables iba a circular corriente. Dejando uno de ellos a modo decorativo.
+
+Si tienes alguna duda, no dudes en dejarme un comentario y lo vemos.
