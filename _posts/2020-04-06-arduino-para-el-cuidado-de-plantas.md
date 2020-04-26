@@ -77,7 +77,7 @@ Algunas otras tareas en las que podrías aplicar Arduino serían:
 
 
 ## ¡Vamos con un ejemplo!
-Vamos a construir un pequeño circuito que será la base para poder entender de qué estamos hablando. Lo primero que tendrás que hacer es ir a https://www.circuito.io/app. Circuito.io es una app muy intuitiva y que nos permitirá aprender cómo quedaría nuestro diseño sin necesidad de gastar dinero en hardware y ver los resultados. La verdad que es que está muy bien. 
+Vamos a construir un pequeño circuito que será la base para poder entender de qué estamos hablando. Lo primero que tendrás que hacer es ir a [Circuito.io](https://www.circuito.io/app) es una app muy intuitiva y que nos permitirá aprender cómo quedaría nuestro diseño sin necesidad de gastar dinero en hardware y ver los resultados. La verdad que es que está muy bien. 
 
 - Inicialmente aparecerá el Arduino Uno la mesa de trabajo
 - En el buscador, buscamos "soil" y arrastramos a la mesa de trabajo el "Soil moisture sensor". Nuestro sensor de humedad.

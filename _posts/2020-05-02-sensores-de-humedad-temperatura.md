@@ -14,4 +14,7 @@ published: false
 ---
 
 ## Sensores de alta precisión en la industria
+https://www.sensirion.com/en/environmental-sensors/humidity-sensors/
 SHT31
+SHT10
+SHT21

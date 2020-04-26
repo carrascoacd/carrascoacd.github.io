@@ -21,4 +21,4 @@ Es en ese punto cuando decido aplicar las dos cosas que más me gustan, la tecno
 
 Creé el blog "El taller del huerto" para enseñar y compartir mis experiencias y que le sean de utilidad a todo el mundo que le guste cultivar su huerto, tenga un jardín o una maceta y a la vez le atraiga la tecnología, la programación o Arduino.
 
-Bienvenid@ y si tienes alguna duda o sugerencia, no dudes en ponerte en contacto conmigo a través de Twitter @tallerdelhuerto
+Bienvenid@ y si tienes alguna duda o sugerencia, no dudes en ponerte en contacto conmigo a través de Twitter [@tallerdelhuerto](https://twitter.com/tallerdelhuerto) o en [GitHub](https://github.com/carrascoacd)
