@@ -18,3 +18,5 @@ https://www.sensirion.com/en/environmental-sensors/humidity-sensors/
 SHT31
 SHT10
 SHT21
+https://eiccontrols.com/es/inicio/107-sensor-inalambrico10hs-hobonet-de-humedad-del-suelo-.html
+Mirar conversación con Nuztbez de twitter

@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover: assets/images/2020-04-09-programar-101/cover.jpg
+cover: assets/images/2020-04-09-programar-arduino-para-plantas/cover.jpg
 navigation: True
 title: "Programar cuidados en C: cómo empezar"
 date: 2020-02-04 10:00:00
@@ -24,21 +24,27 @@ Si estás leyendo este artículo es muy probable que hables Español, pues bien,
 
 Hay ingente documentación sobre este lenguaje, nuestros sistemas operativos se basan en este lenguaje, sistemas a tiempo real e infinidad de aplicaciones que usamos diariamente. En este post no voy a entrar en detalle sobre él, pero si vamos a ver sus aplicaciones a la hora de programar en Arduino.
 
-Antes de ello, tenemos que familiarizarnos dos conceptos:
-- **Función**. Es una acción que vamos a programar y a la que le daremos un nombre. Por ejemplo:
+Antes de ello, tenemos que familiarizarnos estos conceptos:
+- **Sentencia**, una sentencia es una frase que contiene una acción. Por ejemplo
+
+{% highlight C++ linenos %}
+  mover los pies
+{% endhighlight %}
+
+- **Función**. Es un conjunto de acciones que vamos a programar y a la que le daremos un nombre. Por ejemplo:
 
 {% highlight C++ linenos %}
 void andar(){
-  persona.darCincoPasos();
+  mover los pies
 }
 {% endhighlight %}
 
-- **Programa**, en Arduino suele llamarse Sketch, para simplificar se trata de un conjunto de instrucciones que se van a ejecutar.
+- **Programa**, en Arduino suele llamarse Sketch, para simplificar se trata de un conjunto de funciones que se van a ejecutar.
 Por ejemplo
 
 {% highlight C++ linenos %}
 void andar(){
-  persona.darCincoPasos();
+  mover los pies
 }
 
 void setup(){
@@ -50,7 +56,15 @@ void loop(){
 
 {% endhighlight %}
 
-En el programa anterior tenemos tres funciones, una creada por nosotros: *andar* y las otras dos son funciones que veremos en otro post, y que son las que nuestro Sketch va a usar siempre.
+En el programa anterior tenemos tres funciones, una creada por nosotros: *andar* y las otras dos son funciones, y que son las que nuestro Sketch va a usar siempre.
+
+## Setup y Loop
+Los programas en Arduino son bucles, es decir, ejecutan lo mismo de forma infinita mientras estén encendidos. 
+
+En cada Sketch vamos a ver dos funciones:
+- setup. Esta función se ejecuta antes del bucle y se ejecuta solo una vez cuando encendemos Arduino, como su nombre indica, sirve para configurar parámetros iniciales, como por ejemplo un sensor para poder trabajar con él.
+
+- loop. Como su nombre indica, este es el bucle. Se ejecutará de forma infinita y aquí es donde irá normalmente el código de medición de sensores, etc. 
 
 ## A la práctica: el IDE
 Vale, antes de ello voy a explicar que es un IDE. Un IDE son las siglas de Entorno de Desarrollo Integrado (Integrated Development Environment). Y consiste en una aplicación que nos va a permitir escribir nuestro programa.
@@ -64,7 +78,7 @@ Actualmente contamos con dos opciones, la opción Web y la opción nativa, la qu
 ## Siguientes pasos
 Hemos visto dónde escribir un Sketch de Arduino y qué significa. Ahora necesitas un Arduino :) ¿Por qué? porque para poder seguir y ver los resultados de forma real es lo más recomendable.
 
-El primero que compré yo para jugar y experimentar fue [este similar Arduino UNO](http://rover.ebay.com/rover/1/1185-53479-19255-0/1?ff3=4&pub=5575581389&toolid=10001&campid=5338673600&customid=&mpre=https%3A%2F%2Fwww.ebay.es%2Fitm%2FUNO-R3-Rev3-ATmega328-16U2-Arduino-100-Compatible-cable-USB-ULTIMA-VERSION-B009%2F201530741428%3Fhash%3Ditem2eec2b12b4%3Ag%3AKKAAAOSwFdtXxD45) No es el original, pero funciona perfectamente ya que es 100% compatible. [Recordemos que Arduino es hardware open source](arduino-para-el-cuidado-de-plantas), por lo que cualquiera puede crear sus propias placas.
+El primero que compré yo para jugar y experimentar fue [este similar Arduino UNO](http://rover.ebay.com/rover/1/1185-53479-19255-0/1?ff3=4&pub=5575581389&toolid=10001&campid=5338673600&customid=&mpre=https%3A%2F%2Fwww.ebay.es%2Fitm%2FUNO-R3-Rev3-ATmega328-16U2-Arduino-100-Compatible-cable-USB-ULTIMA-VERSION-B009%2F201530741428%3Fhash%3Ditem2eec2b12b4%3Ag%3AKKAAAOSwFdtXxD45){:target="_blank"} No es el original, pero funciona perfectamente ya que es 100% compatible. [Recordemos que Arduino es hardware open source](arduino-para-el-cuidado-de-plantas), por lo que cualquiera puede crear sus propias placas.
 
 Más adelante veremos que hay otras placas más pequeñas o más potentes, pero por el momento esta nos va a dar mucho juego.
 
@@ -103,6 +117,6 @@ En este punto tenemos que subir el código a nuestro Arduino, para que lo ejecut
 Tras subirse deberíamos de ver el parpadeo del led cada segundo.
 
 ## Conclusión
-Esta ha sido una introducción básica donde hemos visto cómo interactuar con elementos externos, en este caso un LED. Esto nos permitirá entender cómo se comunican los sensores con nuestro microcontrolador.
+Esta ha sido una introducción básica donde hemos visto cómo interactuar con elementos externos, en este caso un LED. Esto nos permitirá entender cómo se comunican los sensores con nuestro Arduino en un próximo post.
 
 Además hemos visto cómo se ejecuta el código en Arduino, desde su programación hasta su posterior subida y ejecución.

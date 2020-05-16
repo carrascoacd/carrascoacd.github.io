@@ -72,10 +72,10 @@ Para protegerlo de las inclemencias del exterior, lluvia, humedad o polvo, podem
 ## Otros tipos de sensores de humedad de alto rendimiento
 Los sensores que he mostrado anteriormente no los podemos considerar profesionales, ni siquiera el capacitivo. Puesto que como veremos en el siguiente apartado presenta problemas, por lo que si queremos fiabilidad hemos de invertir más.
 
-Alguno que podemos encontrar es el SHT-10, pero en otro post veremos este punto más en detalle.
+Alguno que podemos encontrar es el SHT-10 también capacitivo u otro tipo de sensores que miden la presión succión como los Irrometer, pero en otro post veremos este punto más en detalle.
 
 ## Ventajas del sensor capacitivo sobre el resistivo
-El sensor resistivo más conocido que nos podemos encontrar es el FC-28, que ronda un precio de varios euros, [este](http://rover.ebay.com/rover/1/1185-53479-19255-0/1?ff3=4&pub=5575581389&toolid=10001&campid=5338673600&customid=&mpre=https%3A%2F%2Fwww.ebay.es%2Fitm%2FModulo-Sensor-Humedad-Tierra-Agua-Suelo-Higrometro-Soil-Arduino-S0021%2F201957194747%3Fhash%3Ditem2f05963bfb%3Ag%3AQPIAAOSw8gVX-kCv) es el que yo compré. Para empezar nuestras andadas a un bajo coste es más que suficiente. Pero no nos va a servir para un proyecto en el campo, puesto que los componentes metálicos terminan oxidándose, modificando así la conductividad de los mismos y haciendo que las mediciones sean totalmente inexactas.
+El sensor resistivo más conocido que nos podemos encontrar es el FC-28, que ronda un precio de varios euros, [este](http://rover.ebay.com/rover/1/1185-53479-19255-0/1?ff3=4&pub=5575581389&toolid=10001&campid=5338673600&customid=&mpre=https%3A%2F%2Fwww.ebay.es%2Fitm%2FModulo-Sensor-Humedad-Tierra-Agua-Suelo-Higrometro-Soil-Arduino-S0021%2F201957194747%3Fhash%3Ditem2f05963bfb%3Ag%3AQPIAAOSw8gVX-kCv){:target="_blank"} es el que yo compré. Para empezar nuestras andadas a un bajo coste es más que suficiente. Pero no nos va a servir para un proyecto en el campo, puesto que los componentes metálicos terminan oxidándose, modificando así la conductividad de los mismos y haciendo que las mediciones sean totalmente inexactas.
 
 Así es como quedó después de un año de uso ![Sensor de humedad resistivo oxidado. Arduino](assets/images/2020-04-19-sensor-capacitivo-vs-resistivo/resistive.jpg "Sensor de humedad resistivo oxidado. Arduino")
 
@@ -96,4 +96,4 @@ En el caso del capacitivo, el dieléctrico no va a ser el suelo, sino el aire, p
 ## Conclusión
 Para proyectos que no sean industriales, si necesitas aprender y tienes poco presupuesto, te recomendaría un sensor resistivo. Pero **si, por el contrario, quieres hacer algo que tenga que sobrevivir en el campo, te recomiendo un sensor capacitivo o bien invertir en un sensor industrial.**
 
-Hemos visto que, tanto el sensor capacitivo, como el resistivo pueden perfectamente ser usados con alta fiabilidad, en proyectos de agricultura. Simplemente hay que encontrar el fabricante y producto que mejor se adapte, por lo que deducimos que el uso de una tecnología u otra no es, a priori, 100% determinante.
+Hemos visto que, tanto el sensor capacitivo, como el resistivo pueden perfectamente ser usados con alta fiabilidad, en proyectos de agricultura. Simplemente hay que encontrar el fabricante y producto que mejor se adapte, por lo que deducimos que el uso de una tecnología u otra no es, a priori, 100% determinante siempre y cuando los sensores sean de calidad y ofrezcan lo que buscamos.
